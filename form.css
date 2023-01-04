@@ -6,11 +6,12 @@ body{
     display: inline-flex;
     width: 70%;
     height: 500px;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #ffffff;
     position: absolute;
     left: 15% ;
     top: 80px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3), inset 8px 8px 8px rgba(187, 185, 185, 0.487), inset -8px -8px 8px rgba(187, 185, 185, 0.487);
 }
 .icon-section{
     position: relative;
@@ -62,10 +63,17 @@ body{
     border-radius: 25px;
     margin-top: 20px;
     background-color: #816DD6;
+    color:#E6E6E6;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.input-section button:hover{
+    background: #3d19de;
+    transition: 0.5s;
 }
 .input-section textarea{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding-left: 20px;
     padding-top: 10px;
 }
