@@ -23,13 +23,49 @@ body{
 .icon-section img{
     position: absolute;
     width: auto;
-    height: 70%;
-    margin-top: 68px;
+    height: 60%;
+    margin-top: 102px;
+    margin-left: 50px;
 }
 .input-section{
     display: relative;
     width: 40%;
     height: auto;
-    padding: 0 10%;
-    border-left: 1px solid black;
+    padding: 16px 13%;
+}
+.input-section p{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    padding-top: 5px;
+}
+.input-section input, button, textarea{
+    background: #E6E6E6;
+    border: none;
+}
+.input-section label{
+    padding-left: 13px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.input-section input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+.input-section button{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    margin-top: 20px;
+    background-color: #816DD6;
+}
+.input-section textarea{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
 }
