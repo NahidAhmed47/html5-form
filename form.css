@@ -1,14 +1,35 @@
 body{
-    background: cornflowerblue;
+    background: #806bcd;
     position: relative;
 }
 .container{
     display: inline-flex;
-    width: 600px;
-    height: 400px;
+    width: 70%;
+    height: 500px;
     border-radius: 10px;
-    background-color: rgb(1, 51, 143);
+    background-color: #ffffff;
     position: absolute;
-    left: 28%;
-    top: 100px;
+    left: 15% ;
+    top: 80px;
+}
+.icon-section{
+    position: relative;
+    width: 40%;
+    height: auto;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: center;
+}
+.icon-section img{
+    position: absolute;
+    width: auto;
+    height: 70%;
+    margin-top: 68px;
+}
+.input-section{
+    display: relative;
+    width: 40%;
+    height: auto;
+    padding: 0 10%;
+    border-left: 1px solid black;
 }
